@@ -1,10 +1,14 @@
 .project {
     margin: 0;
     padding: 0;
-    max-width: 323px;
-    min-height: 250px;
+    width: 333px;
+    min-height: 330px;
     background-color: white;
     display: flex;
     flex-direction: column;
-    border: 1px solid green;
+    box-shadow:
+    -20px 20px 0 -17px #fff,
+    20px -20px 0 -17px #fff,
+    20px 20px 0 -20px #c27153,
+    0 0 0 2px #c27153;
 }

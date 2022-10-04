@@ -24,3 +24,7 @@ typeLine();
     }, 300)
   }
 typeLine();
+title.addEventListener('click', () => {
+  result = ' Михаил Чернышев!';
+  title.innerHTML = result;
+})
