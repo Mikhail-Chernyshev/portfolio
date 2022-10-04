@@ -1,0 +1,10 @@
+.project {
+    margin: 0;
+    padding: 0;
+    max-width: 323px;
+    min-height: 250px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid green;
+}

@@ -1,0 +1,10 @@
+.skills__array {
+    margin: 0 auto;
+    padding: 0;
+    width: 300px;
+    height: 200px;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 50px 50px 50px;
+}

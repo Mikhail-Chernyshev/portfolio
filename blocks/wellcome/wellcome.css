@@ -1,0 +1,4 @@
+.wellcome {
+    display: flex;
+    flex-direction: column;
+}

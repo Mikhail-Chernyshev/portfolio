@@ -1,0 +1,8 @@
+.project__technologies {
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+}
