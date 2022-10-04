@@ -1,6 +1,9 @@
 .wellcome__link_linkedin {
     margin: 0;
     padding: 0;
-    width: 50px;
-    height: 45px;
+    width: 30px;
+    height: 30px;
+    align-self: center;
+    background-image: url(../../../../images/linked-in.jpeg);
+    background-size: cover;
 }

@@ -1,8 +1,35 @@
 .wellcome__link_resume {
-    margin: 0;
+    position: relative;
+    margin: 0 10px 0 0;
+    display: flex;
     padding: 0;
-    border: 2px solid blue;
-    color: blue;
+    border: 2px solid rgb(40, 109, 184);
+    color: rgb(40,109,184);
     width: 100px;
     height: 45px;
+    text-align: center;
+    align-self: center;
+    text-decoration: none;
+    letter-spacing: 4px;
+    transition: all 500ms ease;
+}
+.wellcome__link_resume:before {
+	content:'';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 42px;
+	background: rgb(40,109,184);
+	border-radius: 5px;
+	/* transition: right 2s ease-in-out; */
+}
+.wellcome__link_resume:hover {
+    background-color: rgb(40, 109, 184);
+    color: white;
+    transition: background-color .4s;
+}
+.wellcome__link_resume-span {
+    margin: auto;
+    padding: 0;
 }
