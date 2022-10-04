@@ -28,3 +28,16 @@ title.addEventListener('click', () => {
   result = ' Михаил Чернышев!';
   title.innerHTML = result;
 })
+
+elementsNight = document.querySelectorAll('.night')
+const page = document.querySelector('.page')
+const buttonTheme = document.querySelector('.header__change-theme')
+function changeTheme() {
+  elementsNight.forEach(element => {
+    element.classList.toggle('page_theme_dark')
+  });
+  // page.classList.remove('.page')
+  // elementsNight.classList.toggle('page_theme_dark');
+}
+console.log(buttonTheme)
+buttonTheme.addEventListener('click', changeTheme)
