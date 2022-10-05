@@ -1,3 +1,35 @@
 .contacts__email {
+    position: relative;
     margin: 0 auto;
+    display: flex;
+    padding: 0;
+    border: 2px solid rgb(12,161,109);
+    color: rgb(12, 161, 109);
+    max-width: 120px;
+    height: 45px;
+    text-align: center;
+    align-self: center;
+    text-decoration: none;
+    letter-spacing: 4px;
+    transition: all 500ms ease;
 }
+
+.contacts__email:before {
+	content:'';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 42px;
+    background-color: rgb(12, 161, 109);
+	border-radius: 5px;
+ }
+.contacts__email:hover {
+    background-color: rgb(12, 161, 109);
+    color: white;
+    transition: .4s;
+}
+.contacts__email-span {
+    margin: auto 5px;
+    padding: 0;
+} 

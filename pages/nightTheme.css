@@ -2,4 +2,6 @@
     background-color: #444444;
     color:white;
   }
-  
+  .page_theme_dark:visited {
+    color:white;
+  }

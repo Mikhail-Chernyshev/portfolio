@@ -7,4 +7,9 @@
   line-height: 26px;
   letter-spacing: 0.3em;
   border: none;
+  text-decoration: none;
+}
+
+.header__button:visited {
+  color: #444444;
 }

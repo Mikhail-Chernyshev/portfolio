@@ -37,3 +37,10 @@
 @import url(../blocks/footer/__year/footer__year.css);
 @import url(../blocks/wellcome/__title/_print/wellcome__title_print.css);
 @import url(../pages/nightTheme.css);
+@import url(../blocks/project/__link/project__link.css);
+@import url(../blocks/project/__link/_github/project__link_github.css);
+@import url(../blocks/project/__link/_project/project__link_project.css);
+@import url(../blocks/skills/__name/skills__name.css);
+@import url(../blocks/footer/__up/footer__up.css);
+@import url(../blocks/footer/__wrapper/footer__wrapper.css);
+@import url(../blocks/contacts/__contact/contacts__contact.css);

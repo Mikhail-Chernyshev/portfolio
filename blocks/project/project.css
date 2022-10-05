@@ -1,8 +1,8 @@
 .project {
     margin: 0;
-    padding: 0;
-    width: 333px;
-    min-height: 330px;
+    padding: 40px;
+    width: 260px;
+    min-height: 270px;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -14,6 +14,6 @@
     transition: all 0.5s ease;
 }
 .project:hover {
-    margin-top:-10px;
+    margin-top:-20px;
     transition: all 0.5s ease;
 }
