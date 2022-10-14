@@ -1,14 +1,15 @@
 .skills__array {
-    margin: 0 auto;
-    padding: 0;
-    width: 400px;
-    height: 200px;
-    list-style-type: none;
-    /* display: grid; */
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    /* grid-template-columns: 140px 140px 140px; */
-    /* column-gap: 40px; */
-    /* grid-template-rows: 60px 60px 60px; */
+  margin: 0 auto;
+  padding: 0;
+  max-width: 400px;
+  height: 200px;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+@media screen and (max-width: 767px) {
+  .skills__array {
+    height: 260px;
+  }
 }

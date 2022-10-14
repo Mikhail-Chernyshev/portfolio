@@ -13,3 +13,10 @@
 .header__button:visited {
   color: #444444;
 }
+
+@media screen and (max-width: 767px) {
+  .header__button {
+    margin: 0 10px 0 0;
+    text-align: center;
+  }
+}

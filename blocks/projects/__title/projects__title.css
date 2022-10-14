@@ -2,10 +2,14 @@
     margin: 0 auto;
     margin-bottom: 30px;
     padding: 0;
-    width: 450px;
+    max-width: 450px;
     font-style: normal;
     font-weight: 500;
     font-size: 38px;
     text-align: center;
     line-height: 79px;
 }
+@media screen and (max-width: 767px) {
+    .projects__title {
+    }
+  }

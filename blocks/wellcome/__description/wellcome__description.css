@@ -5,7 +5,11 @@
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
-  width: 600px;
+  max-width: 600px;
   text-align: center;
-  /* line-height: 79px; */
+}
+@media screen and (max-width: 767px) {
+  .wellcome__description {
+    margin: 25px 10px;
+  }
 }

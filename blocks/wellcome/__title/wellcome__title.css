@@ -9,3 +9,8 @@
   font-size: 64px;
   line-height: 79px;
 }
+@media screen and (max-width: 767px) {
+  .wellcome__title {
+    font-size: 48px;
+  }
+}
