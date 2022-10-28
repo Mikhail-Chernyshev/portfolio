@@ -1,7 +1,11 @@
 .page_theme_dark {
-    background-color: #444444;
-    color:white;
-  }
-  .page_theme_dark:visited {
-    color:white;
-  }
+  background-color: #444444;
+  color: white;
+}
+.page_theme_dark:visited {
+  color: white;
+}
+.page_theme_dark .header__change-theme {
+  color: #444444;
+  background: #eeeff1;
+}

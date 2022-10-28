@@ -1,7 +1,7 @@
 .project {
-    margin: 10px auto;
+    margin: 10px 0px;
     padding: 40px;
-    width: 260px;
+    width: 250px;
     min-height: 270px;
     background-color: white;
     display: flex;

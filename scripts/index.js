@@ -20,7 +20,7 @@ function typeLine() {
         clearTimeout(interval);
         title.innerHTML = result;
         return true;
-      }
+      } 
     }
     typeLine();
   }, 300);
@@ -56,7 +56,7 @@ const goTopBtn = document.querySelector('.footer__up');
 function backToTop() {
   if (window.pageYOffset > 0) {
     window.scrollBy(0, -80);
-    setTimeout(backToTop, 30);
+    setTimeout(backToTop, 20);
   }
 }
 goTopBtn.addEventListener('click', backToTop);
