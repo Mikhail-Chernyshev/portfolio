@@ -3,15 +3,15 @@
 // const footerYear = document.querySelector('.footer__year');
 // footerYear.innerHTML = year;
 
-const text = " Mikhail Chernyshev!";
-const title = document.querySelector(".wellcome__title_print");
+const text = ' Mikhail Chernyshev!';
+const title = document.querySelector('.wellcome__title_print');
 let line = 0;
 let count = 0;
-let result = "";
+let result = '';
 function typeLine() {
   let interval = setTimeout(() => {
     result += text[line][count];
-    title.innerHTML = result + "|";
+    title.innerHTML = result + '|';
     count++;
     if (count >= text[line].length) {
       count = 0;
@@ -20,30 +20,32 @@ function typeLine() {
         clearTimeout(interval);
         title.innerHTML = result;
         return true;
-      } 
+      }
     }
     typeLine();
   }, 300);
 }
 typeLine();
 
-title.addEventListener("click", () => {
-  result = " Михаил Чернышев!"; 
-  let resultEn = " Mikhail Chernyshev!";
-  if (title.textContent === " Mikhail Chernyshev!") {
+title.addEventListener('click', () => {
+  result = ' Михаил Чернышев!';
+  let resultEn = ' Mikhail Chernyshev!';
+  if (title.textContent === ' Mikhail Chernyshev!') {
     title.innerHTML = result;
-  } else { title.innerHTML = resultEn}
+  } else {
+    title.innerHTML = resultEn;
+  }
 });
 
-elementsNight = document.querySelectorAll(".night");
-const page = document.querySelector(".page");
-const buttonTheme = document.querySelector(".header__change-theme");
+elementsNight = document.querySelectorAll('.night');
+const page = document.querySelector('.page');
+const buttonTheme = document.querySelector('.header__change-theme');
 function changeTheme() {
   elementsNight.forEach((element) => {
-    element.classList.toggle("page_theme_dark");
+    element.classList.toggle('page_theme_dark');
   });
 }
-buttonTheme.addEventListener("click", () => {
+buttonTheme.addEventListener('click', () => {
   changeTheme();
   if (buttonTheme.textContent === 'N') {
     buttonTheme.innerHTML = 'D';
@@ -60,3 +62,24 @@ function backToTop() {
   }
 }
 goTopBtn.addEventListener('click', backToTop);
+const say = (text) => {
+  console.log(text)
+}
+const fetchAll = (urls) => {
+  urls.forEach((el) => {
+    return fetch(el)
+      .then((res) => {
+        return res;
+      })
+      .then( 
+        say
+      )
+      .catch((err) => {
+        console.log(err);
+      });
+  });
+};
+
+const arrayUrls = [ 'https://pokeapi.co/api/v2/pokemon/ditto', 'http://numbersapi.com/2/29/date'];
+
+fetchAll(arrayUrls)
