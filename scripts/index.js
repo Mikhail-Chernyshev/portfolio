@@ -65,21 +65,3 @@ goTopBtn.addEventListener('click', backToTop);
 const say = (text) => {
   console.log(text)
 }
-const fetchAll = (urls) => {
-  urls.forEach((el) => {
-    return fetch(el)
-      .then((res) => {
-        return res;
-      })
-      .then( 
-        say
-      )
-      .catch((err) => {
-        console.log(err);
-      });
-  });
-};
-
-const arrayUrls = [ 'https://pokeapi.co/api/v2/pokemon/ditto', 'http://numbersapi.com/2/29/date'];
-
-fetchAll(arrayUrls)
