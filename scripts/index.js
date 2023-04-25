@@ -65,3 +65,28 @@ goTopBtn.addEventListener('click', backToTop);
 const say = (text) => {
   console.log(text)
 }
+let array = [-19, -11, -2, 1, 3, 9, -2, -11, -11, 23, 555, 1987, 12984]
+function mostFrequentItemCount(numbers) {
+  let counted = numbers.reduce((acc, curr) => { 
+      if (curr in acc) {
+          acc[curr]++;
+      } else {
+          acc[curr] = 1;
+      }
+
+      return acc;
+  }, {});
+
+  let mode = Object.keys(counted).reduce((a, b) => counted[a] > counted[b] ? a : b);
+let result = 0;
+numbers.forEach((el) => {
+  if (el == mode) {
+    console.log(el)
+    result++;
+  }
+})
+console.log(mode)
+return result
+}
+
+mostFrequentItemCount(array)
