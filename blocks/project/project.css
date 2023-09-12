@@ -12,6 +12,7 @@
     20px 20px 0 -20px #c27153,
     0 0 0 2px #c27153;
     transition: all 0.5s ease;
+    /* background-image: url(../../images/Снимок\ экрана\ 2023-09-13\ в\ 00.47.30.png); */
 }
 .project:hover {
     margin-top:-20px;
