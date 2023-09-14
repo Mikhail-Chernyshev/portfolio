@@ -1,8 +1,3 @@
-// var today = new Date();
-// var year = today.getFullYear();
-// const footerYear = document.querySelector('.footer__year');
-// footerYear.innerHTML = year;
-
 const text = ' Mikhail Chernyshev!';
 const title = document.querySelector('.wellcome__title_print');
 let line = 0;
@@ -47,11 +42,6 @@ function changeTheme() {
 }
 buttonTheme.addEventListener('click', () => {
   changeTheme();
-  if (buttonTheme.textContent === 'N') {
-    buttonTheme.innerHTML = 'D';
-  } else {
-    buttonTheme.innerHTML = 'N';
-  }
 });
 
 const goTopBtn = document.querySelector('.footer__up');

@@ -1,13 +1,16 @@
 .wellcome__title {
-  padding: 0;
+  padding: 0 20px;
   margin: 50px auto;
   margin-bottom: 0px;
-  max-width: 840px;
+  max-width: 1000px;
   text-align: center;
   font-style: normal;
   font-weight: 900;
   font-size: 64px;
   line-height: 79px;
+}
+.wellcome__title_print {
+  padding: 0;
 }
 @media screen and (max-width: 767px) {
   .wellcome__title {

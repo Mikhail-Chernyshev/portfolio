@@ -1,5 +1,6 @@
 .header__nav {
-  margin: 50px 0px 50px 0px;
+  margin: 40px 0px 30px 0px;
   padding: 0;
   display: flex;
+  height: 40px;
 }

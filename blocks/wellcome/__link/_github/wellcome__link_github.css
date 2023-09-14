@@ -4,7 +4,6 @@
     width: 30px;
     height: 30px;
     align-self: center;
-    background-image: url(../../../../images/github.png);
+    background-image: url('../../../../images/github.svg');
     background-size: cover;
-    
 }
