@@ -3,8 +3,10 @@
   margin: 0 0 0 0;
   padding: 0;
   max-width: 130px;
+  font-weight: 700;
+  font-size: 18px;
   height: 44px;
-  background-color: white;
+  background-color: transparent;
   text-align: center;
   box-shadow: -20px 20px 0 -17px #ff6b6b, 0 0 0 0 #fff,
     20px 20px 0 -20px #fff, 0 0 0 2px #fff;
