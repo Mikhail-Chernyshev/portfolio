@@ -2,7 +2,7 @@
     position: relative;
     margin: 0 10px 0 0;
     display: flex;
-    padding: 0;
+    padding: 0 10px;
     border: 2px solid rgb(12,161,109);
     color: rgb(12, 161, 109);
     width: 100px;

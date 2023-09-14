@@ -6,10 +6,11 @@
   height: 44px;
   background-color: white;
   text-align: center;
-  box-shadow: -20px 20px 0 -17px #c27153, 20px -20px 0 -17px #fff,
+  box-shadow: -20px 20px 0 -17px #ff6b6b, 0 0 0 0 #fff,
     20px 20px 0 -20px #fff, 0 0 0 2px #fff;
   text-decoration: none;
   letter-spacing: 4px;
+  border-radius: 6px;
 }
 @media screen and (max-width: 767px) {
   .skills__item {

@@ -2,10 +2,26 @@
   background-color: #444444;
   color: white;
 }
+.page_theme_dark .project {
+  color: #444444;
+}
+.page_theme_dark .footer__up {
+  background-color: #444444;
+}
 .page_theme_dark:visited {
   color: white;
 }
 .page_theme_dark .header__change-theme {
   color: #444444;
-  background: #eeeff1;
+  background-image: url('../images/day-and-night-2.svg');
+  /* background: #eeeff1; */
+}
+.page_theme_dark .header__logo {
+  background-image: url('../images/MIKHAILCHERNYSHEV_free-file-2.svg');
+}
+.page_theme_dark .wellcome__link_github {
+  background-image: url('../images/github-2.svg');
+}
+.page_theme_dark .wellcome__link_linkedin {
+  background-image: url('../images/sociallinkedin_member_70-2.svg');
 }

@@ -4,6 +4,6 @@
     width: 30px;
     height: 30px;
     align-self: center;
-    background-image: url(../../../../images/sociallinkedin_member_70.png);
+    background-image: url('../../../../images/sociallinkedin_member_70.svg');
     background-size: cover;
 }

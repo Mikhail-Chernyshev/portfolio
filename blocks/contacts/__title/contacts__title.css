@@ -1,10 +1,10 @@
 .contacts__title {
-    margin: 0 auto;
-    padding: 0;
-    max-width: 450px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 38px;
-    text-align: center;
-    line-height: 79px;
+  margin: 40px auto 10px;
+  padding: 0;
+  max-width: 450px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 54px;
+  text-align: center;
+  line-height: 79px;
 }
