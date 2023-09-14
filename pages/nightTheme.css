@@ -3,7 +3,10 @@
   color: white;
 }
 .page_theme_dark .project {
-  color: #444444;
+  color: #ffffff;
+}
+.page_theme_dark .projects__title {
+  color: #ffffff;
 }
 .page_theme_dark .footer__up {
   background-color: #444444;

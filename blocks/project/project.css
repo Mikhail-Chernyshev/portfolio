@@ -9,32 +9,7 @@
   background-color: white;
   display: flex;
   flex-direction: column;
-  background: linear-gradient(
-    to right,
-    white 7%,
-    #ff6b6b 7%,
-    #ff6b6b 11%,
-    white 11%,
-    white 19%,
-    #fdafaf 19%,
-    #fdafaf 26%,
-    white 26%,
-    white 38%,
-    #ff6b6b 38%,
-    #ff6b6b 40%,
-    white 40%,
-    white 50%,
-    #fdafaf 50%,
-    #fdafaf 56%,
-    white 56%,
-    white 68%,
-    #ff6b6b 68%,
-    #ff6b6b 74%,
-    white 74%,
-    white 86%,
-    #fdafaf 86%,
-    #fdafaf 74%
-  );
+  border: 3px solid rgb(12, 161, 109);
   transition: all 0.5s ease;
 }
 .project:hover {
